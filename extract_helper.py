@@ -122,7 +122,7 @@ def spotify_extract_info():
 
         #print(track_df.transpose())
 
-        print("antes de")
+        print("antes de Que pase")
         print(track_df["track_played_at"])
 
         track_df['track_played_at'] = pd.to_datetime(track_df["track_played_at"],format="%Y-%m-%d %H:%M:%S")
